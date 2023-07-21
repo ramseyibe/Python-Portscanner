@@ -13,6 +13,8 @@ Output
 
 The port scanner will output a list of all the open ports on the target host. The output will be color-coded, with open ports shown in green and closed ports shown in red.
 Example Output
+
+
 ![Screenshot_2023-07-21_20-13-19](https://github.com/ramseyibe/Python-Portscanner/assets/30157395/5e38e84d-7dd2-4bf7-a537-713f880395c0)
 
 
