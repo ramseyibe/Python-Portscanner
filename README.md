@@ -12,6 +12,7 @@ python port_scanner.py -H 192.168.1.1 -p 80,443,22
 Output
 
 The port scanner will output a list of all the open ports on the target host. The output will be color-coded, with open ports shown in green and closed ports shown in red.
+
 Example Output
 
 
