@@ -1,7 +1,7 @@
 # Python-Portscanner
 Port Scanner
 
-This is a simple port scanner written in Python. It can be used to scan a target host for open ports.
+This is a simple port scanner written in Python. It can be used to scan a target host for open ports and returns the version of the open ports.
 Usage
 
 To use the port scanner, you will need to provide the target host and the target ports. You can do this by passing the -H and -p options to the program.
@@ -15,8 +15,8 @@ The port scanner will output a list of all the open ports on the target host. Th
 
 Example Output
 
+![Screenshot_2023-07-21_20-13-19](https://github.com/ramseyibe/Python-Portscanner/assets/30157395/41c72217-af44-4cf4-a0af-0f0d0bbd42b3)
 
-![Screenshot_2023-07-21_20-13-19](https://github.com/ramseyibe/Python-Portscanner/assets/30157395/5e38e84d-7dd2-4bf7-a537-713f880395c0)
 
 
-![Screenshot_2023-07-21_20-18-01](https://github.com/ramseyibe/Python-Portscanner/assets/30157395/3760f500-b867-40d0-81e2-f64fc9fc044c)
+![Screenshot_2023-08-05_14-39-25](https://github.com/ramseyibe/Python-Portscanner/assets/30157395/69a41667-4b03-4c9f-a5a1-7fde8436d08c)
