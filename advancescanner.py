@@ -12,7 +12,8 @@ def connScan(targetHost, targetPorts):
 	try:
 		sock = socket(AF_INET, SOCK_STREAM)
 		sock.connect((targetHost, targetPorts))
-		print(colored("[+] {}/tcp Open ".format(targetPorts), "green"))
+		banner = sock.recv(1024)
+		print(colored("[+] {}/tcp Open {} ".format(targetPorts, banner), "green"))
 	except:
 		print(colored("[-] {}/tcp Closed ".format(targetPorts), "red"))
 	finally:
@@ -59,7 +60,7 @@ def main():
 		exit(0)
 	#call the portscan function
 	portScan(targetHost, targetPorts)
-
+	print("Ports		Service Version")
 
 
 if __name__ == '__main__':
